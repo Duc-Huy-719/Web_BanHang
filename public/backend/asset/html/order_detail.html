@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Mango-store-admin</title>
+</head>
+
+<body>
+    <section class="admin">
+        <div class="row-grid">
+            <div class="admin-siderbar">
+                <div class="admin-siderbar-top">
+                    <img src="../image/Mango2.jpg" alt="">
+                </div>
+                <div class="admin-siderbar-content">
+                    <ul>
+                        <li><a href=""><i class="ri-dashboard-line"></i>Dashboard<i class="ri-add-box-line"></i></a>
+                            <ul class="sub-menu">
+                                <div class="sub-menu-items">
+                                    <li><a href=""><i class="ri-arrow-right-s-fill"></i>Tổng quan</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li><a href=""><i class="ri-file-list-line"></i>Đơn Hàng<i class="ri-add-box-line"></i></a>
+                            <ul class="sub-menu">
+                                <div class="sub-menu-items">
+                                    <li><a href="../html/order_list.html"><i class="ri-arrow-right-s-fill"></i>Danh
+                                            sách</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li><a href=""><i class="ri-file-list-line"></i>Sản Phẩm<i class="ri-add-box-line"></i></a>
+                            <ul class="sub-menu">
+                                <div class="sub-menu-items">
+                                    <li><a href="../html/product_list.html"><i class="ri-arrow-right-s-fill"></i>Danh
+                                            sách</a></li>
+                                    <li><a href="../html/product_add.html"><i class="ri-arrow-right-s-fill"></i>Thêm</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="admin-content">
+                <div class="admin-content-top">
+                    <div class="admin-content-top-left">
+                        <ul class="flex-box">
+                            <li><i class="ri-search-line"></i></li>
+                            <li><i class="ri-drag-move-line"></i></li>
+                        </ul>
+                    </div>
+                    <div class="admin-content-top-right">
+                        <ul class="flex-box">
+                            <li><i class="ri-notification-4-line" number="3"></i></li>
+                            <li><i class="ri-message-2-line" number="5"></i></li>
+                            <li class="flex-box">
+                                <img style="width: 50px;" src="../image/logo_avatar2.png" alt="">
+                                <p>Mango <i class="ri-arrow-down-s-fill"></i></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="admin-content-main">
+                    <div class="admin-content-main-title">
+                        <h1>Chi tiết đơn hàng</h1>
+                    </div>
+                    <div class="admin-content-main-content">
+                        <div class="admin-content-main-content-order-list">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Ảnh</th>
+                                        <th>Tên</th>
+                                        <th>Giá</th>
+                                        <th>Số Lượng</th>
+                                        <th>Thành Tiền</th>
+                                        <th>Tùy Biến</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><img style="width: 70px;" src="../image/ao-thun-Hoa-Tiet.jpg" alt=""></td>
+                                        <td>T-Shirt Cotton 220GSM</td>
+                                        <td>60,000</td>
+                                        <td>3</td>
+                                        <td>180,000</td>
+                                        <td>
+                                            <a class="delete-class" href="">Xóa</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><img style="width: 70px;" src="../image/ao-thun-tay-ngan-carbon.webp"
+                                                alt=""></td>
+                                        <td>T-Shirt Cotton 220GSM</td>
+                                        <td>70,000</td>
+                                        <td>1</td>
+                                        <td>70,000</td>
+                                        <td>
+                                            <a class="delete-class" href="">Xóa</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: 700;" colspan="5">Tổng cộng</td>
+                                        <td style="font-weight: 700;">250.000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
