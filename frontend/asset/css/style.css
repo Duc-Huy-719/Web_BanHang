@@ -531,7 +531,7 @@ header .row-flex {
     flex-grow: 1;
 }
 .big-img {
-    width: 100%;
+    width: 90%;
     height: auto;
     object-fit: cover;
 }
