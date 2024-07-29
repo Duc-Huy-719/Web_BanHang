@@ -1,58 +1,50 @@
-// Sample product data (you can replace this with your actual product data)
-const products = [
-    { name: "Áo sơ mi nữ", category: "Nữ", type: "Áo" },
-    { name: "Quần jean nam", category: "Nam", type: "Quần" },
-    { name: "Đầm hoa", category: "Đầm", type: "Đầm" },
-    // Add more products as needed
-];
+document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('search');
+    const searchResults = document.getElementById('search-results');
 
-const searchInput = document.getElementById('searchInput');
-const searchButton = document.getElementById('searchButton');
-const searchResults = document.getElementById('searchResults');
+    const products = [
+        {
+            name: 'Áo Phao Nam Siêu Nhẹ',
+            price: '510,000đ',
+            oldPrice: '550,000đ',
+            material: 'Polyester',
+            image: 'http://127.0.0.1:5500/asset/image/product/AoKhoacNam/product3.jpg'
+        },
+        {
+            name: 'Áo thun Pink Baby',
+            price: '180,000đ',
+            oldPrice: '220,000đ',
+            material: 'Thun',
+            image: 'http://127.0.0.1:5500/asset/image/product/AoThunNu/product8.jpg'
+        },
+        {
+            name: 'Quần Denim ống sẻ',
+            price: '350.000đ',
+            oldPrice: '370.000đ',
+            material: 'Denim',
+            image: 'http://127.0.0.1:5500/asset/image/product/QuanJeanNu/product7.webp'
+        }
+    ];
 
-function performSearch() {
-    const query = searchInput.value.toLowerCase();
-    const filteredProducts = products.filter(product =>
-        product.name.toLowerCase().includes(query) ||
-        product.category.toLowerCase().includes(query) ||
-        product.type.toLowerCase().includes(query)
-    );
+    searchInput.addEventListener('input', () => {
+        const query = searchInput.value.toLowerCase();
+        searchResults.innerHTML = '';
 
-    displayResults(filteredProducts);
-}
-
-function displayResults(results) {
-    searchResults.innerHTML = '';
-    if (results.length === 0) {
-        searchResults.style.display = 'none';
-        return;
-    }
-
-    results.forEach(product => {
-        const resultItem = document.createElement('div');
-        resultItem.classList.add('search-result-item');
-        resultItem.textContent = `${product.name} - ${product.category} (${product.type})`;
-        resultItem.addEventListener('click', () => {
-            // Handle click on search result (e.g., navigate to product page)
-            console.log(`Clicked on: ${product.name}`);
-            searchResults.style.display = 'none';
-        });
-        searchResults.appendChild(resultItem);
+        if (query) {
+            const filteredProducts = products.filter(product => product.name.toLowerCase().includes(query));
+            filteredProducts.forEach(product => {
+                const productElement = document.createElement('div');
+                productElement.classList.add('product');
+                productElement.innerHTML = `
+                    <img src="${product.image}" alt="${product.name}">
+                    <div>
+                        <div>${product.name}</div>
+                        <div style="color: red;">${product.price}</div>
+                        <div><s>${product.oldPrice}</s> ${product.discount}</div>
+                    </div>
+                `;
+                searchResults.appendChild(productElement);
+            });
+        }
     });
-
-    searchResults.style.display = 'block';
-}
-
-searchButton.addEventListener('click', performSearch);
-searchInput.addEventListener('keyup', (e) => {
-    if (e.key === 'Enter') {
-        performSearch();
-    }
-});
-
-// Close search results when clicking outside
-document.addEventListener('click', (e) => {
-    if (!searchResults.contains(e.target) && e.target !== searchInput && e.target !== searchButton) {
-        searchResults.style.display = 'none';
-    }
 });
