@@ -73,7 +73,7 @@
                 </div>
                 <div class="header">
                     <div class="header-search">
-                        <input type="text" placeholder="Tìm kiếm">
+                        <input type="text" name="" id="search-item" placeholder="Tìm kiếm" onkeyup="search()">
                         <i class="ri-search-line"></i>
                     </div>
                     <div class="header-user">
@@ -84,12 +84,21 @@
                         </div> -->
                     </div>
                     <div class="header-cart">
-                        <a href="../html/cart.html"><i class="ri-shopping-cart-line" number="0" href="#"></i></a>
+                        <a href="#"><i class="ri-shopping-cart-line" id="cartIcon"></i></a>
+                        <span class="cart-count">0</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    <div class="cart-panel" id="cartPanel">
+        <i class="ri-close-line close-cart" id="closeCart"></i>
+        <h2>Giỏ hàng</h2>
+        <div id="cartItems">
+        </div>
+        <div class="cart-total">Tổng cộng: <span id="cartTotal">0đ</span></div>
+        <button class="btn btn-secondary" id="viewCart"><a href="../html/cart.html">Xem giỏ hàng</a></button>
+    </div>
     <!-- product-detail -->
     <section class="product-detail p-to-top">
         <div class="container">
@@ -274,6 +283,7 @@
             <p class="Copyright">Copyright 2024</p>
         </div>
     </div>
+    <script src="../javascript/cart_product.js"></script>
     <script src="../javascript/script.js"></script>
 </body>
 
