@@ -14,6 +14,18 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//Layouts
+// routes/web.php
+
+Route::get('/', [HomeController::class, 'index'])->name('home');
+// Add other routes as needed
+Route::get('/product/{category}', [ProductController::class, 'category'])->name('product.category');
+Route::get('/product/{slug}', [ProductController::class, 'show'])->name('product.show');
+Route::get('/news', [NewsController::class, 'index'])->name('news');
+Route::get('/login', [AuthController::class, 'login'])->name('login');
+Route::get('/cart', [CartController::class, 'index'])->name('cart');
+
+// |-----------------------------------------------|
 //Admin
 Route::get('/admin', function () {
     return view('admin.home');
