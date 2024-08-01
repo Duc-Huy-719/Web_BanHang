@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mango store</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="row-flex">
+                <div class="header-bar-icon">
+                    <i class="ri-menu-line"></i>
+                </div>
+                <div class="header-logo">
+                    <a href="../html/index.html"><img src="../image/logo/logo_mango_mobile.jpg" alt=""></a>
+                </div>
+                <div class="header-logo-mobile">
+                    <a href="../html/index.html"><img src="../image/logo/logo_mango_mobile.jpg" alt=""></a>
+                </div>
+                <div class="header-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="#">NỮ</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Áo</a>
+                                        <ul>
+                                            <li><a href="../html/product_AoSoMiNu.html">Áo sơ mi</a></li>
+                                            <li><a href="../html/product_AoThunNu.html">Áo thun</a></li>
+                                            <li><a href="../html/product_AoKhoacNu.html">Áo khoác</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Quần</a>
+                                        <ul>
+                                            <li><a href="../html/product_QuanJeanNu.html">Quần jean</a></li>
+                                            <li><a href="../html/product_QuanShortNu.html">Quần short</a></li>
+                                            <li><a href="../html/product_QuanDaiNu.html">Quần dài</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">NAM</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Áo</a>
+                                        <ul>
+                                            <li><a href="../html/product_AoSoMiNam.html">Áo sơ mi</a></li>
+                                            <li><a href="../html/product_AoThunNam.html">Áo thun</a></li>
+                                            <li><a href="../html/product_AoKhoacNam.html">Áo khoác</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Quần</a>
+                                        <ul>
+                                            <li><a href="../html/product_QuanJeanNam.html">Quần jean</a></li>
+                                            <li><a href="../html/product_QuanShortNam.html">Quần short</a></li>
+                                            <li><a href="../html/product_QuanDaiNam.html">Quần dài</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="../html/product_DamNu.html">ĐẦM</a></li>
+                            <li><a href="../html/tintuc.html">TIN TỨC</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header">
+                    <div class="header-search">
+                        <input type="text" id="search" placeholder="Tìm kiếm">
+                        <i class="ri-search-line"></i>
+                    </div>
+                    <div class="header-user">
+                        <a href="../html/login.html"><i class="ri-user-line" href="#"></i></a>
+                        <!-- <div class="dropdown-content">
+                            <a href="#">Đăng nhập</a>
+                            <a href="#">Đăng ký</a>
+                        </div> -->
+                    </div>
+                    <div class="header-cart">
+                        <a href="../html/cart.html"><i class="ri-shopping-cart-line" number="0" href="#"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- cart-session -->
+    <section class="cart-section p-to-top">
+        <div class="container">
+            <div class="row-grid">
+                <p>Giỏ Hàng</p>
+            </div>
+            <div class="row-grid">
+                <div class="cart-section-left">
+                    <h2 class="main-h2">Chi Tiết Đơn Hàng</h2>
+                    <div class="cart-section-left-detail">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Ảnh</th>
+                                    <th>Sản Phẩm</th>
+                                    <th>Thành Tiền</th>
+                                    <th>Xóa</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img style="width: 70px;" src="../image/product/product1.1.jpg" alt=""></td>
+                                    <td>
+                                        <div class="product-detail-right-infor">
+                                            <h1>T-Shirt Cotton 220 GSM</h1>
+                                            <div class="product-item-price">
+                                                <p>30,000 <sub>đ</sub> <span>56,000 <sub>đ</sub></span></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-deatail-right-quanty-input">
+                                            <i class="ri-subtract-line"></i>
+                                            <input onKeydown="return false" class="quantity-input" type="number"
+                                                value="1">
+                                            <i class="ri-add-line"></i>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p>224,000 <sub>đ</sub></p>
+                                    </td>
+                                    <td>Xóa</td>
+                                </tr>
+                                <tr>
+                                    <td><img style="width: 70px;" src="../image/product/product3.1.jpg" alt=""></td>
+                                    <td>
+                                        <div class="product-detail-right-infor">
+                                            <h1>T-Shirt Cotton 220 GSM</h1>
+                                            <div class="product-item-price">
+                                                <p>30,000 <sub>đ</sub> <span>56,000 <sub>đ</sub></span></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-deatail-right-quanty-input">
+                                            <i class="ri-subtract-line"></i>
+                                            <input onKeydown="return false" class="quantity-input" type="number"
+                                                value="1">
+                                            <i class="ri-add-line"></i>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p>224,000 <sub>đ</sub></p>
+                                    </td>
+                                    <td>Xóa</td>
+                                </tr>
+                                <tr>
+                                    <td><img style="width: 70px;" src="../image/product/product2.1.jpg" alt=""></td>
+                                    <td>
+                                        <div class="product-detail-right-infor">
+                                            <h1>T-Shirt Cotton 220 GSM</h1>
+                                            <div class="product-item-price">
+                                                <p>30,000 <sub>đ</sub> <span>56,000 <sub>đ</sub></span></p>
+                                            </div>
+                                        </div>
+                                        <div class="product-deatail-right-quanty-input">
+                                            <i class="ri-subtract-line"></i>
+                                            <input onKeydown="return false" class="quantity-input" type="number"
+                                                value="1">
+                                            <i class="ri-add-line"></i>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p>224,000 <sub>đ</sub></p>
+                                    </td>
+                                    <td>Xóa</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                        <button class="main-btn">Cập Nhật Giỏ Hàng</button>
+                        <a style="color: crimson; font-size: italic;" href="">Tiếp Tục Mua Hàng</a>
+                    </div>
+                </div>
+                <!-- <div class="cart-section-right">
+                    <h2 class="main-h2">Thông Tin Giao Hàng</h2>
+                    <div class="cart-section-right-input-name-phone">
+                        <input type="text" placeholder="Tên" name="" id="">
+                        <input type="text" placeholder="Điện thoại" name="" id="">
+                    </div>
+                    <div class="cart-section-right-input-email">
+                        <input type="text" placeholder="Email" name="" id="">
+                    </div>
+                    <div class="cart-section-right-select">
+                        <select name="city" id="city">
+                            <option value="">Tỉnh/TP</option>
+                        </select>
+                        <select name="district" id="district">
+                            <option value="">Quận/huyện</option>
+                        </select>
+                        <select name="ward" id="ward">
+                            <option value="">Phường/xã</option>
+                        </select>
+                    </div>
+                    <div class="cart-section-right-input-address">
+                        <input type="text" placeholder="Địa chỉ" name="" id="">
+                    </div>
+                    <div class="cart-section-right-input-note">
+                        <input type="text" placeholder="Ghi chú" name="" id="">
+                    </div>
+                    <button class="main-btn">Gửi Đơn Hàng</button>
+                </div> -->
+                <div class="cart">
+                    <h2>Giỏ hàng</h2>
+                    <div class="cart-header">
+                        <div><input type="checkbox"> Tất cả sản phẩm</div>
+                        <div>Số lượng</div>
+                        <div>Giá</div>
+                    </div>
+                    <div class="cart-item">
+                        <img src="https://via.placeholder.com/80" alt="Sản phẩm">
+                        <div class="cart-item-details">
+                            <p>Áo Thun Chạy Bộ Graphic Jungle</p>
+                            <p>Màu: Nâu / Size: XL</p>
+                        </div>
+                        <div class="cart-item-actions">
+                            <input type="number" value="1" min="1">
+                            <p>179.000đ</p>
+                        </div>
+                    </div>
+                    <div class="cart-summary">
+                        <div>
+                            <span>Tạm tính</span>
+                            <span>179.000đ</span>
+                        </div>
+                        <div>
+                            <span>Giảm giá</span>
+                            <span>0đ</span>
+                        </div>
+                        <div>
+                            <span>Phí giao hàng</span>
+                            <span>25.000đ</span>
+                        </div>
+                        <div>
+                            <strong>Tổng</strong>
+                            <strong>204.000đ</strong>
+                        </div>
+                    </div>
+                    <!-- <div class="apply-voucher">
+                        <input type="text" placeholder="Nhập mã giảm giá">
+                        <button>Áp dụng Voucher</button>
+                    </div> -->
+                    <button class="place-order-button">Đặt hàng</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- hot product -->
+    <section class="hot-products">
+        <div class="container">
+            <div class="row-grid">
+                <p class="heading-text">Sản Phẩm Mới</p>
+            </div>
+            <div class="row-grid row-grid-hot-products">
+                <div class="hot-product-item">
+                    <div class="image-container">
+                        <a href=""><img src="../image/product/AoKhoacNam/product3.jpg" alt=""></a>
+                        <div class="overlay">
+                            <div class="overlay-content"><a href="../html/product_details_AoKhoacNam_product3.html">Xem
+                                    thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p><a href="">Áo Phao Nam Siêu Nhẹ</a></p>
+                    <span>Polyester</span>
+                    <div class="product-item-price">
+                        <p>510,000<sup>đ</sup> <span>550,000<sup>đ</sup></span> </p>
+                    </div>
+                </div>
+                <div class="hot-product-item">
+                    <div class="image-container">
+                        <a href=""><img src="../image/product/AoThunNu/product8.jpg" alt=""></a>
+                        <div class="overlay">
+                            <div class="overlay-content"><a href="../html/product_details_AoThunNu_product8.html">Xem
+                                    thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p><a href="">Áo thun Pink Baby</a></p>
+                    <span>Thun</span>
+                    <div class="product-item-price">
+                        <p>180,000<sup>đ</sup> <span>220,000<sup>đ</sup></span> </p>
+                    </div>
+                </div>
+                <div class="hot-product-item">
+                    <div class="image-container">
+                        <a href=""><img src="../image/product/QuanJeanNu/product7.webp" alt=""></a>
+                        <div class="overlay">
+                            <div class="overlay-content"><a href="../html/product_details_QuanJeanNu_product7.html">Xem
+                                    thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p><a href="">Quần Denim ống sẻ</a></p>
+                    <span>Denim</span>
+                    <div class="product-item-price">
+                        <p>350,000<sup>đ</sup> <span>370,000<sup>đ</sup></span> </p>
+                    </div>
+                </div>
+                <div class="hot-product-item">
+                    <div class="image-container">
+                        <a href=""><img src="../image/product/SoMiNam/product7.webp" alt=""></a>
+                        <div class="overlay">
+                            <div class="overlay-content"><a href="../html/product_details_AoSoMiNam_product7.html">Xem
+                                    thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p><a href="">Áo sơ mi denim Regular fit</a></p>
+                    <span>Denim</span>
+                    <div class="product-item-price">
+                        <p>270,000<sup>đ</sup> <span>300,000<sup>đ</sup></span> </p>
+                    </div>
+                </div>
+                <div class="hot-product-item">
+                    <div class="image-container">
+                        <a href=""><img src="../image/product/Vay_Dam/product4.webp" alt=""></a>
+                        <div class="overlay">
+                            <div class="overlay-content"><a href="../html/product_details_DamNu_product4.html">Xem
+                                    thêm</a></div>
+                        </div>
+                    </div>
+                    <p><a href="">Đầm chấm bi cổ bẻ</a></p>
+                    <span>Vải thô</span>
+                    <div class="product-item-price">
+                        <p>980,000<sup>đ</sup> <span>1,000,000<sup>đ</sup></span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Tải xuống ứng dụng của chúng tôi</h3>
+                    <p>Tải App cho điện thoại Android và ios</p>
+                    <div class="app-logo">
+                        <img src="../image/logo/play-store.png">
+                        <img src="../image/logo/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="../image/logo/Mango_store.jpg">
+                    <p>Mục đích của chúng tôi là mang lại niềm vui và lợi ích của thời trang một cách bền vững cho nhiều
+                        người</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Liên kết hữu ích</h3>
+                    <ul>
+                        <li>Phiếu giảm giá</li>
+                        <li>Bài viết trên blog</li>
+                        <li>Chính sách hoàn trả</li>
+                        <li>Tham gia liên kết</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Theo dõi chúng tôi</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2024</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="../javascript/apiprovince.js"></script>
+    <script src="../javascript/script.js"></script>
+
+</body>
+
+</html>

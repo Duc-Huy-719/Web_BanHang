@@ -108,40 +108,72 @@ window.addEventListener('scroll', () => {
         : CartBox.classList.add('active')
 })
 // login/register
-document.addEventListener("DOMContentLoaded", function () {
-    var loginButton = document.getElementById("login_button");
-    var registerButton = document.getElementById("register_button");
+// document.addEventListener('DOMContentLoaded', function () {
+//     const tabs = document.querySelectorAll('.tab');
+//     const closeBtn = document.querySelector('.close-btn');
+//     const overlay = document.querySelector('.overlay');
+//     const loginForm = document.getElementById('loginForm');
+//     const registerForm = document.getElementById('registerForm');
+//     const formTitle = document.getElementById('formTitle');
 
-    var loginEmail = document.getElementById("login_email");
-    var loginPassword = document.getElementById("login_password");
-    var loginError = document.getElementById("login_error");
-    var loginSuccess = document.getElementById("login_success");
+//     let users = [];
 
-    var registerHo = document.getElementById("register_ho");
-    var registerTen = document.getElementById("register_ten");
-    var registerEmail = document.getElementById("register_email");
-    var registerPhone = document.getElementById("register_phone");
-    var registerPassword = document.getElementById("register_password");
-    var registerSuccess = document.getElementById("register_success");
+//     tabs.forEach(tab => {
+//         tab.addEventListener('click', function () {
+//             tabs.forEach(t => t.classList.remove('active'));
+//             this.classList.add('active');
+//             if (this.dataset.tab === 'login') {
+//                 loginForm.style.display = 'block';
+//                 registerForm.style.display = 'none';
+//                 formTitle.textContent = 'Đăng nhập';
+//             } else {
+//                 loginForm.style.display = 'none';
+//                 registerForm.style.display = 'block';
+//                 formTitle.textContent = 'Đăng ký';
+//             }
+//         });
+//     });
 
-    loginButton.addEventListener("click", function () {
-        if (loginEmail.value === "" || loginPassword.value === "") {
-            loginError.style.display = "block";
-            loginSuccess.style.display = "none";
-        } else {
-            loginError.style.display = "none";
-            loginSuccess.style.display = "block";
-        }
-    });
+//     closeBtn.addEventListener('click', function () {
+//         overlay.style.display = 'none';
+//     });
 
-    registerButton.addEventListener("click", function () {
-        if (registerHo.value !== "" && registerTen.value !== "" && registerEmail.value !== "" && registerPhone.value !== "" && registerPassword.value !== "") {
-            registerSuccess.style.display = "block";
-        } else {
-            registerSuccess.style.display = "none";
-        }
-    });
-});
+//     loginForm.addEventListener('submit', function (e) {
+//         e.preventDefault();
+//         const username = document.getElementById('loginUsername').value;
+//         const password = document.getElementById('loginPassword').value;
+//         const user = users.find(u => u.username === username && u.password === password);
+//         if (user) {
+//             document.getElementById('loginSuccess').style.display = 'block';
+//             document.getElementById('loginError').style.display = 'none';
+//             setTimeout(() => {
+//                 alert('Đăng nhập thành công!');
+//                 overlay.style.display = 'none';
+//             }, 1500);
+//         } else {
+//             document.getElementById('loginError').style.display = 'block';
+//             document.getElementById('loginSuccess').style.display = 'none';
+//         }
+//     });
+
+//     registerForm.addEventListener('submit', function (e) {
+//         e.preventDefault();
+//         const newUser = {
+//             firstName: document.getElementById('registerFirstName').value,
+//             lastName: document.getElementById('registerLastName').value,
+//             email: document.getElementById('registerEmail').value,
+//             username: document.getElementById('registerUsername').value,
+//             password: document.getElementById('registerPassword').value
+//         };
+//         users.push(newUser);
+//         document.getElementById('registerSuccess').style.display = 'block';
+//         setTimeout(() => {
+//             tabs[0].click();
+//             registerForm.reset();
+//             document.getElementById('registerSuccess').style.display = 'none';
+//         }, 1500);
+//     });
+// });
 //order
 document.addEventListener("DOMContentLoaded", function () {
     var completeOrderButton = document.getElementById("completeOrder");
