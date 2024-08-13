@@ -99,50 +99,51 @@
         <div class="cart-total">Tổng cộng: <span id="cartTotal">0đ</span></div>
         <button class="btn btn-secondary" id="viewCart"><a href="../html/cart.html">Xem giỏ hàng</a></button>
     </div>
+    <div class="notification" id="notification">Thêm vào giỏ hàng thành công!</div>
     <!-- product-detail -->
     <section class="product-detail p-to-top">
         <div class="container">
             <div class="row-grid-product-detail">
                 <div class="product-detail-left">
                     <div class="product-img-items">
-                        <img src="../image/product/AoThunNu/product7.1.webp" alt="" class="small-img active">
-                        <img src="../image/product/AoThunNu/product7.2.webp" alt="" class="small-img">
-                        <img src="../image/product/AoThunNu/product7.3.webp" alt="" class="small-img">
-                        <img src="../image/product/AoThunNu/product7.4.webp" alt="" class="small-img">
-                        <img src="../image/product/AoThunNu/product7.5.webp" alt="" class="small-img">
+                        <img src="../image/product/AoThunNu/product8.1.webp" alt="" class="small-img active">
+                        <img src="../image/product/AoThunNu/product8.2.webp" alt="" class="small-img">
+                        <img src="../image/product/AoThunNu/product8.3.webp" alt="" class="small-img">
+                        <img src="../image/product/AoThunNu/product8.4.webp" alt="" class="small-img">
+                        <img src="../image/product/AoThunNu/product8.5.webp" alt="" class="small-img">
                     </div>
                     <div class="big-img-container">
-                        <img src="../image/product/AoThunNu/product7.webp" alt="" class="big-img">
+                        <img src="../image/product/AoThunNu/product8.jpg" alt="" class="big-img">
                     </div>
                 </div>
                 <div class="product-detail-right">
-                    <h1>Áo thun Moments</h1>
-                    <span class="span-product">Chất liệu thun/span>
-                        <p class="p-product-detail">160,000đ <span>200,000đ</span></p>
-                        <div class="product-detail-description">
-                            <h2>Đặc điểm nổi bật</h2>
-                            <ul>
-                                <li>Chất liệu: thun</li>
-                                <li>Định lượng vải 220gsm dày dặn</li>
-                                <li>Áo tạo điểm nhấn qua chi tiết hình in trên thân trước. Chất liệu thun Cotton mềm
-                                    mịn, thấm hút mồ hôi, thoáng mát khi mặc.</li>
-                                <li>Kết cấu vải chắc chắn, phù hợp với các trang phục hè bởi độ mát, thoáng khí của vải.
-                                    Lựa
-                                    chọn dễ chịu trong thời tiết Xuân – Hè.</li>
-                                <li>Bạn lựa chọn mix áo cùng quần jeans, chân váy, quần suông đều phù hợp và mang đến
-                                    những outfits thời trang</li>
-                                <li>Sản xuất tại Nhà máy Tessellation (TGV), Việt Nam. <a href="#">Xem nhà máy ></a>
-                                </li>
-                                <li>Người mẫu: 165cm - 49kg, mẫu mặc size S</li>
-                            </ul>
-                        </div>
-                        <h2>Số Lượng:</h2>
-                        <div class="product-detail-quantity">
-                            <i class="ri-subtract-line"></i>
-                            <input onKeyDown="return false" name="product_quantity" type="number" value="1">
-                            <i class="ri-add-line"></i>
-                        </div>
-                        <button class="main-button">Thêm Vào Giỏ Hàng</button>
+                    <h1>Áo thun Pink Baby</h1>
+                    <span class="span-product">Chất liệu: thun</span>
+                    <p class="p-product-detail">180,000đ <span>220,000đ</span></p>
+                    <div class="product-detail-description">
+                        <h2>Đặc điểm nổi bật</h2>
+                        <ul>
+                            <li>Chất liệu: thun</li>
+                            <li>Định lượng vải 220gsm dày dặn</li>
+                            <li>Áo tạo điểm nhấn qua chi tiết hình in trên thân trước. Chất liệu thun mềm
+                                mịn, thấm hút mồ hôi, thoáng mát khi mặc.</li>
+                            <li>Kết cấu vải chắc chắn, phù hợp với các trang phục hè bởi độ mát, thoáng khí của vải.
+                                Lựa
+                                chọn dễ chịu trong thời tiết Xuân – Hè.</li>
+                            <li>Bạn lựa chọn mix áo cùng quần jeans, chân váy, quần suông đều phù hợp và mang đến
+                                những outfits thời trang</li>
+                            <li>Sản xuất tại Nhà máy Tessellation (TGV), Việt Nam. <a href="#">Xem nhà máy ></a>
+                            </li>
+                            <li>Người mẫu: 165cm - 49kg, mẫu mặc size S</li>
+                        </ul>
+                    </div>
+                    <h2>Số Lượng:</h2>
+                    <div class="product-detail-quantity">
+                        <i class="ri-subtract-line" id="decreaseQuantity"></i>
+                        <input id="quantity" type="number" value="1" min="1" readonly>
+                        <i class="ri-add-line" id="increaseQuantity"></i>
+                    </div>
+                    <button class="main-button" id="addToCart">Thêm Vào Giỏ Hàng</button>
                 </div>
             </div>
             <div class="row-grid row-grid-one-item">

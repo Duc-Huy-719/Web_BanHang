@@ -1,0 +1,836 @@
+{
+    "cartItems": [
+        {
+            "id": 1,
+            "name": "Áo sơ mi lụa",
+            "material": "lụa",
+            "price": 553000,
+            "oldPrice": 790000,
+            "image": "image/product/AoSoMiNu/product1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Áo sơ mi Tencel tay lỡ",
+            "material": "Tencel sinh học",
+            "price": 550000,
+            "oldPrice": 800000,
+            "image": "image/product/AoSoMiNu/product2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Áo Sơ Mi Cộc Tay",
+            "material": "Vải gấm",
+            "price": 560000,
+            "oldPrice": 760000,
+            "image": "image/product/AoSoMiNu/product3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Áo sơ mi cổ đức",
+            "material": "Lụa",
+            "price": 570000,
+            "oldPrice": 660000,
+            "image": "image/product/AoSoMiNu/product4.webp"
+        },
+        {
+            "id": 5,
+            "name": "Áo sơ mi lỡ thêu hoa",
+            "material": "Tencel",
+            "price": 580000,
+            "oldPrice": 680000,
+            "image": "image/product/AoSoMiNu/product5.webp"
+        },
+        {
+            "id": 6,
+            "name": "Áo sơ mi tay cách điệu",
+            "material": "Rayon, Poly, Spandex",
+            "price": 610000,
+            "oldPrice": 740000,
+            "image": "image/product/AoSoMiNu/product6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Áo sơ mi trắng cổ đá",
+            "material": "Vải thô",
+            "price": 560000,
+            "oldPrice": 650000,
+            "image": "image/product/AoSoMiNu/product7.webp"
+        },
+        {
+            "id": 8,
+            "name": "Áo sơ mi phối kẻ",
+            "material": "Vải tổng hợp",
+            "price": 580000,
+            "oldPrice": 700000,
+            "image": "image/product/AoSoMiNu/product8.webp"
+        },
+        {
+            "id": 9,
+            "name": "Áo thun ôm cổ đổ",
+            "material": "Thun",
+            "price": 120000,
+            "oldPrice": 170000,
+            "image": "image/product/AoThunNu/product1.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Áo thun bo gấu dáng ngắn",
+            "material": "Thun",
+            "price": 150000,
+            "oldPrice": 195000,
+            "image": "image/product/AoThunNu/product2.webp"
+        },
+        {
+            "id": 11,
+            "name": "Áo thun ôm cách điệu",
+            "material": "Thun",
+            "price": 130000,
+            "oldPrice": 170000,
+            "image": "image/product/AoThunNu/product3.webp"
+        },
+        {
+            "id": 12,
+            "name": "Áo thun ôm cổ cách điệu",
+            "material": "Thun",
+            "price": 1500000,
+            "oldPrice": 180000,
+            "image": "image/product/AoThunNu/product4.webp"
+        },
+        {
+            "id": 13,
+            "name": "Áo Thun Reef Tee",
+            "material": "Thun Cotton",
+            "price": 200000,
+            "oldPrice": 240000,
+            "image": "image/product/AoThunNu/product5.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Áo lụa 2 dây cổ vuông",
+            "material": "Lụa poly",
+            "price": 210000,
+            "oldPrice": 230000,
+            "image": "image/product/AoThunNu/product6.webp"
+        },
+        {
+            "id": 15,
+            "name": "Áo thun Moments",
+            "material": "Thun",
+            "price": 160000,
+            "oldPrice": 200000,
+            "image": "image/product/AoThunNu/product7.webp"
+        },
+        {
+            "id": 16,
+            "name": "Áo thun Pink Baby",
+            "material": "Thun",
+            "price": 180000,
+            "oldPrice": 220000,
+            "image": "image/product/AoThunNu/product8.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Áo khoác Mangto",
+            "material": "Vải dạ",
+            "price": 800000,
+            "oldPrice": 950000,
+            "image": "image/product/AoKhoacNu/product1.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Áo phao kèm đai",
+            "material": "Vải tổng hợp",
+            "price": 510000,
+            "oldPrice": 560000,
+            "image": "image/product/AoKhoacNu/product2.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Áo phao cổ lông trắng",
+            "material": "Vải tổng hợp",
+            "price": 590000,
+            "oldPrice": 620000,
+            "image": "image/product/AoKhoacNu/product3.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Áo khoác phao giáng dài",
+            "material": "Vải tổng hợp",
+            "price": 580000,
+            "oldPrice": 610000,
+            "image": "image/product/AoKhoacNu/product4.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Áo khoác phao cổ nhung",
+            "material": "Vải tổng hợp",
+            "price": 560000,
+            "oldPrice": 590000,
+            "image": "image/product/AoKhoacNu/product5.webp"
+        },
+        {
+            "id": 22,
+            "name": "Áo khoác phao có mũ",
+            "material": "Vải tổng hợp",
+            "price": 450000,
+            "oldPrice": 480000,
+            "image": "image/product/AoKhoacNu/product6.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Áo phao dáng dài",
+            "material": "Vải tổng hợp",
+            "price": 470000,
+            "oldPrice": 500000,
+            "image": "image/product/AoKhoacNu/product7.webp"
+        },
+        {
+            "id": 24,
+            "name": "Áo khoác phao kèm đai",
+            "material": "Vải tổng hợp",
+            "price": 390000,
+            "oldPrice": 420000,
+            "image": "image/product/AoKhoacNu/product8.jpg"
+        },
+        {
+            "id": 25,
+            "name": "Quần Jean ống đứng basic",
+            "material": "Denim",
+            "price": 360000,
+            "oldPrice": 400000,
+            "image": "image/product/QuanJeanNu/product1.jpg"
+        },
+        {
+            "id": 26,
+            "name": "Quần Jeans loe xẻ gấu",
+            "material": "Denim",
+            "price": 350000,
+            "oldPrice": 380000,
+            "image": "image/product/QuanJeanNu/product2.jpg"
+        },
+        {
+            "id": 27,
+            "name": "Quần Jeans ống loe nhẹ",
+            "material": "Denim",
+            "price": 320000,
+            "oldPrice": 350000,
+            "image": "image/product/QuanJeanNu/product3.webp"
+        },
+        {
+            "id": 28,
+            "name": "Quần Jeans suông xanh đậm",
+            "material": "Denim",
+            "price": 300000,
+            "oldPrice": 330000,
+            "image": "image/product/QuanJeanNu/product4.webp"
+        },
+        {
+            "id": 29,
+            "name": "Quần Jeans suông cạp chéo",
+            "material": "Denim",
+            "price": 310000,
+            "oldPrice": 340000,
+            "image": "image/product/QuanJeanNu/product5.webp"
+        },
+        {
+            "id": 30,
+            "name": "Quần sooc bò gập gấu",
+            "material": "Denim",
+            "price": 330000,
+            "oldPrice": 360000,
+            "image": "image/product/QuanJeanNu/product6.webp"
+        },
+        {
+            "id": 31,
+            "name": "Quần Denim ống sẻ",
+            "material": "Denim",
+            "price": 350000,
+            "oldPrice": 370000,
+            "image": "image/product/QuanJeanNu/product7.webp"
+        },
+        {
+            "id": 32,
+            "name": "Quần Baggy phối khuy đai",
+            "material": "Denim",
+            "price": 360000,
+            "oldPrice": 380000,
+            "image": "image/product/QuanJeanNu/product8.webp"
+        },
+        {
+            "id": 33,
+            "name": "Quần short Lozenge Set",
+            "material": "Tuysi",
+            "price": 290000,
+            "oldPrice": 330000,
+            "image": "image/product/QuanShortNu/product1.webp"
+        },
+        {
+            "id": 34,
+            "name": "Quần short Lozenge Set",
+            "material": "Lụa",
+            "price": 280000,
+            "oldPrice": 320000,
+            "image": "image/product/QuanShortNu/product2.webp"
+        },
+        {
+            "id": 35,
+            "name": "Quần short kaki túi kiểu",
+            "material": "kaki",
+            "price": 310000,
+            "oldPrice": 330000,
+            "image": "image/product/QuanShortNu/product3.webp"
+        },
+        {
+            "id": 36,
+            "name": "Quần short Organza dập ly",
+            "material": "Organza",
+            "price": 320000,
+            "oldPrice": 350000,
+            "image": "image/product/QuanShortNu/product4.webp"
+        },
+        {
+            "id": 37,
+            "name": "Quần short dáng ngắn",
+            "material": "Tuysi",
+            "price": 315000,
+            "oldPrice": 335000,
+            "image": "image/product/QuanShortNu/product5.webp"
+        },
+        {
+            "id": 38,
+            "name": "Quần short Organza",
+            "material": "Organza",
+            "price": 320000,
+            "oldPrice": 340000,
+            "image": "image/product/QuanShortNu/product6.webp"
+        },
+        {
+            "id": 39,
+            "name": "Quần short cạp cao Rayon",
+            "material": "Tuysi",
+            "price": 320000,
+            "oldPrice": 360000,
+            "image": "image/product/QuanShortNu/product7.webp"
+        },
+        {
+            "id": 40,
+            "name": "Quần short Ladies Rayon",
+            "material": "Tuysi",
+            "price": 330000,
+            "oldPrice": 350000,
+            "image": "image/product/QuanShortNu/product8.webp"
+        },
+        {
+            "id": 41,
+            "name": "Quần suông chiết ly",
+            "material": "Tuysi",
+            "price": 430000,
+            "oldPrice": 470000,
+            "image": "image/product/QuanDaiNu/product1.webp"
+        },
+        {
+            "id": 42,
+            "name": "Quần Baggy phối phụ kiện",
+            "material": "Tuysi",
+            "price": 410000,
+            "oldPrice": 440000,
+            "image": "image/product/QuanDaiNu/product2.webp"
+        },
+        {
+            "id": 43,
+            "name": "Quần Baggy dấu khuy",
+            "material": "Tuysi",
+            "price": 425000,
+            "oldPrice": 485000,
+            "image": "image/product/QuanDaiNu/product3.webp"
+        },
+        {
+            "id": 44,
+            "name": "Quần suông trơn Tuysi",
+            "material": "Tuysi",
+            "price": 430000,
+            "oldPrice": 470000,
+            "image": "image/product/QuanDaiNu/product4.webp"
+        },
+        {
+            "id": 45,
+            "name": "Quần ống đứng",
+            "material": "Vải thô",
+            "price": 350000,
+            "oldPrice": 390000,
+            "image": "image/product/QuanDaiNu/product5.webp"
+        },
+        {
+            "id": 46,
+            "name": "Quần ống rộng",
+            "material": "Vải tổng hợp",
+            "price": 410000,
+            "oldPrice": 450000,
+            "image": "image/product/QuanDaiNu/product6.webp"
+        },
+        {
+            "id": 47,
+            "name": "Quần ông suông xẻ tà",
+            "material": "Tuysi",
+            "price": 480000,
+            "oldPrice": 530000,
+            "image": "image/product/QuanDaiNu/product7.webp"
+        },
+        {
+            "id": 48,
+            "name": "Quần suông ống rộng xếp ly",
+            "material": "Tuysi",
+            "price": 360000,
+            "oldPrice": 390000,
+            "image": "image/product/QuanDaiNu/product8.webp"
+        },
+        {
+            "id": 49,
+            "name": "Áo Sơ Mi Nam Tay Ngắn",
+            "material": "Tuysi",
+            "price": 250000,
+            "oldPrice": 270000,
+            "image": "image/product/SoMiNam/product1.jpg"
+        },
+        {
+            "id": 50,
+            "name": "Áo Sơ mi nam tay ngắn",
+            "material": "Tuysi",
+            "price": 250000,
+            "oldPrice": 270000,
+            "image": "image/product/SoMiNam/product2.webp"
+        },
+        {
+            "id": 51,
+            "name": "Áo sơ mi họa tiết",
+            "material": "Lụa",
+            "price": 290000,
+            "oldPrice": 320000,
+            "image": "image/product/SoMiNam/product3.jpg"
+        },
+        {
+            "id": 52,
+            "name": "Áo Sơ mi dài tay Café-DriS",
+            "material": "Vải thô",
+            "price": 310000,
+            "oldPrice": 330000,
+            "image": "image/product/SoMiNam/product4.webp"
+        },
+        {
+            "id": 53,
+            "name": "Áo Sơ mi nam tay ngắn",
+            "material": "Vải thô",
+            "price": 295000,
+            "oldPrice": 335000,
+            "image": "image/product/SoMiNam/product5.webp"
+        },
+        {
+            "id": 54,
+            "name": "Áo Sơ Mi Regular Fit",
+            "material": "Vải thô",
+            "price": 215000,
+            "oldPrice": 235000,
+            "image": "image/product/SoMiNam/product6.webp"
+        },
+        {
+            "id": 55,
+            "name": "Áo sơ mi denim Regular fit",
+            "material": "Denim",
+            "price": 270000,
+            "oldPrice": 300000,
+            "image": "image/product/SoMiNam/product7.webp"
+        },
+        {
+            "id": 56,
+            "name": "Áo sơ mi nam giáng Slim Fit",
+            "material": "Denim",
+            "price": 250000,
+            "oldPrice": 280000,
+            "image": "image/product/SoMiNam/product8.webp"
+        },
+        {
+            "id": 57,
+            "name": "Áo Thun SOUL",
+            "material": "Thun",
+            "price": 150000,
+            "oldPrice": 180000,
+            "image": "image/product/AoThunNam/product1.jpg"
+        },
+        {
+            "id": 58,
+            "name": "Áo Thun Polo Kẻ Viền",
+            "material": "Thun",
+            "price": 140000,
+            "oldPrice": 170000,
+            "image": "image/product/AoThunNam/product2.jpg"
+        },
+        {
+            "id": 59,
+            "name": "Áo Thun Kẻ Ngang Dáng Oversize",
+            "material": "Thun",
+            "price": 170000,
+            "oldPrice": 200000,
+            "image": "image/product/AoThunNam/product3.jpg"
+        },
+        {
+            "id": 60,
+            "name": "Áo thun trơn tay cộc",
+            "material": "Cotton",
+            "price": 1400000,
+            "oldPrice": 170000,
+            "image": "image/product/AoThunNam/product4.webp"
+        },
+        {
+            "id": 61,
+            "name": "Áo thun Basic trơn",
+            "material": "Thun",
+            "price": 175000,
+            "oldPrice": 210000,
+            "image": "image/product/AoThunNam/product5.webp"
+        },
+        {
+            "id": 62,
+            "name": "Áo Thun In Họa Tiết",
+            "material": "Thun",
+            "price": 175000,
+            "oldPrice": 210000,
+            "image": "image/product/AoThunNam/product6.jpg"
+        },
+        {
+            "id": 63,
+            "name": "Áo Thun Nam Phối Sọc Tay",
+            "material": "Cotton",
+            "price": 140000,
+            "oldPrice": 170000,
+            "image": "image/product/AoThunNam/product7.webp"
+        },
+        {
+            "id": 64,
+            "name": "Áo thun nam cotton",
+            "material": "Thun",
+            "price": 150000,
+            "oldPrice": 180000,
+            "image": "image/product/AoThunNam/product8.jpg"
+        },
+        {
+            "id": 65,
+            "name": "Áo Phao Nam Siêu Nhẹ",
+            "material": "Polyester",
+            "price": 530000,
+            "oldPrice": 550000,
+            "image": "image/product/AoKhoacNam/product1.jpg"
+        },
+        {
+            "id": 66,
+            "name": "Áo Phao Nam Siêu Nhẹ",
+            "material": "Polyester",
+            "price": 530000,
+            "oldPrice": 550000,
+            "image": "image/product/AoKhoacNam/product2.jpg"
+        },
+        {
+            "id": 67,
+            "name": "Áo Phao Nam Siêu Nhẹ",
+            "material": "Polyester",
+            "price": 510000,
+            "oldPrice": 550000,
+            "image": "image/product/AoKhoacNam/product3.jpg"
+        },
+        {
+            "id": 68,
+            "name": "Áo Phao Nam Siêu Nhẹ",
+            "material": "Polyester",
+            "price": 510000,
+            "oldPrice": 550000,
+            "image": "image/product/AoKhoacNam/product4.webp"
+        },
+        {
+            "id": 69,
+            "name": "Áo Phao Nam Siêu Nhẹ",
+            "material": "Polyester",
+            "price": 350000,
+            "oldPrice": 370000,
+            "image": "image/product/AoKhoacNam/product5.webp"
+        },
+        {
+            "id": 70,
+            "name": "Áo khoác nam có mũ Daily Wear",
+            "material": "Polyester",
+            "price": 200000,
+            "oldPrice": 230000,
+            "image": "image/product/AoKhoacNam/product6.webp"
+        },
+        {
+            "id": 71,
+            "name": "Áo Khoác thể thao Pro Active",
+            "material": "Polyester",
+            "price": 310000,
+            "oldPrice": 350000,
+            "image": "image/product/AoKhoacNam/product7.jpg"
+        },
+        {
+            "id": 72,
+            "name": "Áo Phao Nam Siêu Nhẹ",
+            "material": "Polyester",
+            "price": 510000,
+            "oldPrice": 550000,
+            "image": "image/product/AoKhoacNam/product8.webp"
+        },
+        {
+            "id": 73,
+            "name": "Quần jeans Slim fit",
+            "material": "Denim",
+            "price": 350000,
+            "oldPrice": 380000,
+            "image": "image/product/QuanJeanNam/product1.webp"
+        },
+        {
+            "id": 74,
+            "name": "Quần jeans Slim fit",
+            "material": "Denim",
+            "price": 350000,
+            "oldPrice": 380000,
+            "image": "image/product/QuanJeanNam/product2.jpg"
+        },
+        {
+            "id": 75,
+            "name": "Quần Jeans Regular fit",
+            "material": "Denim",
+            "price": 380000,
+            "oldPrice": 410000,
+            "image": "image/product/QuanJeanNam/product3.jpg"
+        },
+        {
+            "id": 76,
+            "name": "Quần jeans dáng regular",
+            "material": "Denim",
+            "price": 350000,
+            "oldPrice": 370000,
+            "image": "image/product/QuanJeanNam/product4.jpg"
+        },
+        {
+            "id": 77,
+            "name": "Quần jeans dáng basic",
+            "material": "Denim",
+            "price": 390000,
+            "oldPrice": 410000,
+            "image": "image/product/QuanJeanNam/product5.jpg"
+        },
+        {
+            "id": 78,
+            "name": "Quần Jean Dáng Regular",
+            "material": "Denim",
+            "price": 360000,
+            "oldPrice": 380000,
+            "image": "image/product/QuanJeanNam/product6.jpg"
+        },
+        {
+            "id": 79,
+            "name": "Quần Jeans Slim",
+            "material": "Denim",
+            "price": 380000,
+            "oldPrice": 400000,
+            "image": "image/product/QuanJeanNam/product7.webp"
+        },
+        {
+            "id": 80,
+            "name": "Quần Jeans dáng Slim",
+            "material": "Denim",
+            "price": 360000,
+            "oldPrice": 380000,
+            "image": "image/product/QuanJeanNam/product8.jpg"
+        },
+        {
+            "id": 81,
+            "name": "Quần shorts Khaki Slim fit",
+            "material": "Khaki",
+            "price": 250000,
+            "oldPrice": 270000,
+            "image": "image/product/QuanShortNam/product1.jpg"
+        },
+        {
+            "id": 82,
+            "name": "Quần shorts Khaki Slim fit",
+            "material": "Khaki",
+            "price": 260000,
+            "oldPrice": 290000,
+            "image": "image/product/QuanShortNam/product2.jpg"
+        },
+        {
+            "id": 83,
+            "name": "Quần Sooc Thun Cạp Dây Kéo",
+            "material": "Thun",
+            "price": 220000,
+            "oldPrice": 250000,
+            "image": "image/product/QuanShortNam/product3.jpg"
+        },
+        {
+            "id": 84,
+            "name": "Quần short Regular Khaki",
+            "material": "Khaki",
+            "price": 230000,
+            "oldPrice": 260000,
+            "image": "image/product/QuanShortNam/product4.jpg"
+        },
+        {
+            "id": 85,
+            "name": "Quần short Regular cotton",
+            "material": "Cotton",
+            "price": 240000,
+            "oldPrice": 270000,
+            "image": "image/product/QuanShortNam/product5.jpg"
+        },
+        {
+            "id": 86,
+            "name": "Quần Lửng Khaki",
+            "material": "Khaki",
+            "price": 235000,
+            "oldPrice": 250000,
+            "image": "image/product/QuanShortNam/product6.jpg"
+        },
+        {
+            "id": 87,
+            "name": "Quần shorts Regular ngang gối",
+            "material": "Khaki",
+            "price": 210000,
+            "oldPrice": 240000,
+            "image": "image/product/QuanShortNam/product7.jpg"
+        },
+        {
+            "id": 88,
+            "name": "Quần shorts Regular ngang gối",
+            "material": "Tuysi",
+            "price": 360000,
+            "oldPrice": 390000,
+            "image": "image/product/QuanShortNam/product8.jpg"
+        },
+        {
+            "id": 89,
+            "name": "Quần Regular Khaki Basic",
+            "material": "Khaki",
+            "price": 260000,
+            "oldPrice": 290000,
+            "image": "image/product/QuanDaiNam/product1.webp"
+        },
+        {
+            "id": 90,
+            "name": "Quần Plants Khaki",
+            "material": "Khaki",
+            "price": 270000,
+            "oldPrice": 300000,
+            "image": "image/product/QuanDaiNam/product2.webp"
+        },
+        {
+            "id": 91,
+            "name": "Quần Khaki Basic",
+            "material": "Khaki",
+            "price": 280000,
+            "oldPrice": 310000,
+            "image": "image/product/QuanDaiNam/product3.jpg"
+        },
+        {
+            "id": 92,
+            "name": "Quần Slim Khaki Basic",
+            "material": "Khaki",
+            "price": 270000,
+            "oldPrice": 310000,
+            "image": "image/product/QuanDaiNam/product4.webp"
+        },
+        {
+            "id": 93,
+            "name": "Quần Tây Tuysi Regular Fit",
+            "material": "Tuysi",
+            "price": 280000,
+            "oldPrice": 315000,
+            "image": "image/product/QuanDaiNam/product5.webp"
+        },
+        {
+            "id": 94,
+            "name": "Quần kẻ Tuysi Slim Fit",
+            "material": "Tuysi",
+            "price": 310000,
+            "oldPrice": 330000,
+            "image": "image/product/QuanDaiNam/product6.jpg"
+        },
+        {
+            "id": 95,
+            "name": "Quần Regular Tuysi Basic",
+            "material": "Tuysi",
+            "price": 290000,
+            "oldPrice": 320000,
+            "image": "image/product/QuanDaiNam/product7.webp"
+        },
+        {
+            "id": 96,
+            "name": "Quần dài Tuysi be nâu",
+            "material": "Tuysi",
+            "price": 270000,
+            "oldPrice": 300000,
+            "image": "image/product/QuanDaiNam/product8.jpg"
+        },
+        {
+            "id": 97,
+            "name": "Đầm hạ eo xếp ly",
+            "material": "Vải thô",
+            "price": 930000,
+            "oldPrice": 970000,
+            "image": "image/product/Vay_Dam/product1.jpg"
+        },
+        {
+            "id": 98,
+            "name": "Đầm Peplum thiết kế",
+            "material": "Vải tweed",
+            "price": 910000,
+            "oldPrice": 950000,
+            "image": "image/product/Vay_Dam/product2.jpg"
+        },
+        {
+            "id": 99,
+            "name": "Đầm hoa vàng hạ eo",
+            "material": "Vải voan",
+            "price": 920000,
+            "oldPrice": 950000,
+            "image": "image/product/Vay_Dam/product3.webp"
+        },
+        {
+            "id": 100,
+            "name": "Đầm chấm bi cổ bẻ",
+            "material": "Vải thô",
+            "price": 980000,
+            "oldPrice": 1000000,
+            "image": "image/product/Vay_Dam/product4.webp"
+        },
+        {
+            "id": 101,
+            "name": "Đầm suông tay voan",
+            "material": "Vải thô",
+            "price": 890000,
+            "oldPrice": 920000,
+            "image": "image/product/Vay_Dam/product5.jpg"
+        },
+        {
+            "id": 102,
+            "name": "Đầm suông thêu hoa",
+            "material": "Vải thô",
+            "price": 1095000,
+            "oldPrice": 1115000,
+            "image": "image/product/Vay_Dam/product6.jpg"
+        },
+        {
+            "id": 103,
+            "name": "Đầm thêu hoa",
+            "material": "Vải tổng hợp",
+            "price": 750000,
+            "oldPrice": 790000,
+            "image": "image/product/Vay_Dam/product7.webp"
+        },
+        {
+            "id": 104,
+            "name": "Đầm Xếp Ly",
+            "material": "Vải voan",
+            "price": 720000,
+            "oldPrice": 750000,
+            "image": "image/product/Vay_Dam/product8.webp"
+        }
+    ]
+}
