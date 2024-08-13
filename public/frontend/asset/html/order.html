@@ -75,10 +75,6 @@
                     </div>
                     <div class="header-user">
                         <a href="../html/login.html"><i class="ri-user-line" href="#"></i></a>
-                        <!-- <div class="dropdown-content">
-                            <a href="#">Đăng nhập</a>
-                            <a href="#">Đăng ký</a>
-                        </div> -->
                     </div>
                     <div class="header-cart">
                         <a href="#"><i class="ri-shopping-cart-line" id="cartIcon"></i></a>
@@ -100,12 +96,13 @@
     <!-- order-detail-->
     <section class="order-section p-to-top">
         <div class="container">
-            <h1>Giỏ Hàng</h1>
             <div class="row-grid">
                 <div class="order-section-left">
-                    <h2>Thông Tin Giao Hàng</h2>
-                    <input type="text" placeholder="Tên">
-                    <input type="text" placeholder="Điện thoại">
+                    <h3>Thông Tin Giao Hàng</h3>
+                    <div class="input-group">
+                        <input type="text" placeholder=" Họ tên">
+                        <input type="text" placeholder="SĐT">
+                    </div>
                     <input type="email" placeholder="Email">
                     <div class="order-section-right-select">
                         <select name="city" id="city">
@@ -119,26 +116,25 @@
                         </select>
                     </div>
                     <input type="text" placeholder="Địa chỉ">
-                    <input type="text" placeholder="Ghi chú">
                 </div>
                 <div class="order-section-right">
                     <div class="cart-summary">
                         <h3>Tóm tắt đơn hàng</h3>
                         <div class="summary-item">
                             <span>Tổng tiền hàng</span>
-                            <span>7.990.000đ</span>
+                            <span>530,000đ</span>
                         </div>
                         <div class="summary-item">
                             <span>Tạm tính</span>
-                            <span>7.990.000đ</span>
+                            <span>530,000đ</span>
                         </div>
                         <div class="summary-item">
                             <span>Phí vận chuyển</span>
-                            <span>38.000đ</span>
+                            <span>15.000đ</span>
                         </div>
                         <div class="summary-item summary-total">
                             <span>Tiền thanh toán</span>
-                            <span>8.028.000đ</span>
+                            <span>545.000đ</span>
                         </div>
                         <div class="tabs">
                             <div class="tab active">Mã phiếu giảm giá</div>
@@ -147,9 +143,6 @@
                         <div class="apply-voucher">
                             <input type="text" placeholder="Mã giảm giá">
                             <button onclick="applyVoucher()">ÁP DỤNG</button>
-                        </div>
-                        <div class="support-code">
-                            <input type="text" placeholder="Mã nhân viên hỗ trợ">
                         </div>
                         <button class="complete-button" onclick="completeOrder()">HOÀN THÀNH</button>
                     </div>
@@ -163,9 +156,9 @@
                     </p>
                     <div class="payment-method">
                         <input type="radio" id="credit-card" name="payment-method">
-                        <label for="credit-card">Thanh toán bằng thẻ tín dụng <img
-                                src="https://picsum.photos/50/30?random=1" alt="Visa"> <img
-                                src="https://picsum.photos/50/30?random=2" alt="Mastercard"></label>
+                        <label for="credit-card">Thanh toán bằng thẻ tín dụng
+                            <img src="https://pubcdn.ivymoda.com/ivy2/images/1.png" alt="Visa">
+                        </label>
                     </div>
                     <div class="payment-method">
                         <input type="radio" id="atm" name="payment-method">

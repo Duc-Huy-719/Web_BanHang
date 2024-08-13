@@ -79,8 +79,4 @@ function updateCart() {
     // Logic to update the cart
 }
 
-function placeOrder() {
-    alert("Đơn hàng của bạn đã được đặt!");
-}
-
 document.addEventListener("DOMContentLoaded", renderCart);

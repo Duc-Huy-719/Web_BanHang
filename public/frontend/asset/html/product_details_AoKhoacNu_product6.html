@@ -78,10 +78,6 @@
                     </div>
                     <div class="header-user">
                         <a href="../html/login.html"><i class="ri-user-line" href="#"></i></a>
-                        <!-- <div class="dropdown-content">
-                            <a href="#">Đăng nhập</a>
-                            <a href="#">Đăng ký</a>
-                        </div> -->
                     </div>
                     <div class="header-cart">
                         <a href="#"><i class="ri-shopping-cart-line" id="cartIcon"></i></a>
@@ -99,7 +95,7 @@
         <div class="cart-total">Tổng cộng: <span id="cartTotal">0đ</span></div>
         <button class="btn btn-secondary" id="viewCart"><a href="../html/cart.html">Xem giỏ hàng</a></button>
     </div>
-
+    <div class="notification" id="notification">Thêm vào giỏ hàng thành công!</div>
     <!-- product-detail -->
     <section class="product-detail p-to-top">
         <div class="container">
@@ -113,7 +109,7 @@
                         <img src="../image/product/AoKhoacNu/product6.5.webp" alt="" class="small-img">
                     </div>
                     <div class="big-img-container">
-                        <img src="../image/product/AoKhoacNu/product6.webp" alt="" class="big-img">
+                        <img src="../image/product/AoKhoacNu/product6.jpg" alt="" class="big-img">
                     </div>
                 </div>
                 <div class="product-detail-right">
@@ -134,11 +130,11 @@
                     </div>
                     <h2>Số Lượng:</h2>
                     <div class="product-detail-quantity">
-                        <i class="ri-subtract-line"></i>
-                        <input onKeyDown="return false" name="product_quantity" type="number" value="1">
-                        <i class="ri-add-line"></i>
+                        <i class="ri-subtract-line" id="decreaseQuantity"></i>
+                        <input id="quantity" type="number" value="1" min="1" readonly>
+                        <i class="ri-add-line" id="increaseQuantity"></i>
                     </div>
-                    <button class="main-button">Thêm Vào Giỏ Hàng</button>
+                    <button class="main-button" id="addToCart">Thêm Vào Giỏ Hàng</button>
                 </div>
             </div>
             <div class="row-grid row-grid-one-item">
