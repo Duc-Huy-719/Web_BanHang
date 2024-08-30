@@ -27,7 +27,7 @@
                 <td>
                     <a class="edit-class" href="/admin/order_detail">Chi tiết</a>
                 </td>
-                <td>24/06/2024</td>
+                <td>02/08/2024</td>
                 <td><a class="confirm-order" href="">Đã xác nhận</a></td>
                 <td>
                     <a class="delete-class" href="">Xóa</a>
@@ -43,7 +43,7 @@
                 <td>
                     <a class="edit-class" href="/admin/order_detail">Chi tiết</a>
                 </td>
-                <td>24/06/2024</td>
+                <td>03/08/2024</td>
                 <td><a class="non-confirm-order" href="">Chưa xác nhận</a></td>
                 <td>
                     <a class="delete-class" href="">Xóa</a>
