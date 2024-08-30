@@ -66,6 +66,7 @@ li{
 }
 .admin-siderbar-top img{
     width: 100px;
+    margin-top: 20px;
 }
 .admin-siderbar-content > ul > li > a{
     width: 100%;

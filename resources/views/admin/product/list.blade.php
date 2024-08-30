@@ -16,11 +16,11 @@
         <tbody>
             <tr>
                 <td>1</td>
-                <td><img style="width: 70px;" src="{{asset('backend/asset/image/ao-thun-Hoa-Tiet.jpg')}}" alt=""></td>
-                <td>T-Shirt Cotton 220GSM</td>
-                <td>120,000</td>
-                <td>60,000</td>
-                <td>2024-06-23</td>
+                <td><img style="width: 70px;" src="{{asset('backend/asset/image/product1.jpg')}}" alt=""></td>
+                <td>Áo Phao Nam Siêu Nhẹ</td>
+                <td>550,000</td>
+                <td>530,000</td>
+                <td>2024-08-01</td>
                 <td>
                     <a class="edit-class" href="">Sửa</a>
                     |
@@ -29,12 +29,12 @@
             </tr>
             <tr>
                 <td>2</td>
-                <td><img style="width: 70px;" src="{{asset('backend/asset/image/AoThunTayNganPhoiDay.webp')}}" alt="">
+                <td><img style="width: 70px;" src="{{asset('backend/asset/image/product2.jpg')}}" alt="">
                 </td>
-                <td>T-Shirt Cotton 220GSM</td>
-                <td>120,000</td>
-                <td>60,000</td>
-                <td>2024-06-23</td>
+                <td>Áo sơ mi Tencel tay lỡ</td>
+                <td>800,000</td>
+                <td>550,000</td>
+                <td>2024-08-02</td>
                 <td>
                     <a class="edit-class" href="">Sửa</a>
                     |
@@ -43,11 +43,11 @@
             </tr>
             <tr>
                 <td>3</td>
-                <td><img style="width: 70px;" src="{{asset('backend/asset/image/AoThunKhongCo.jpg')}}" alt=""></td>
-                <td>T-Shirt Cotton 220GSM</td>
-                <td>120,000</td>
-                <td>60,000</td>
-                <td>2024-06-23</td>
+                <td><img style="width: 70px;" src="{{asset('backend/asset/image/product3.jpg')}}" alt=""></td>
+                <td>Áo phao cổ lông trắng</td>
+                <td>620,000</td>
+                <td>590,000</td>
+                <td>2024-08-03</td>
                 <td>
                     <a class="edit-class" href="">Sửa</a>
                     |

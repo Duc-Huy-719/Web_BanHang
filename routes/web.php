@@ -387,9 +387,14 @@ Route::get('/layouts/cart', function () {
 Route::get('/layouts/order', function () {
     return view('layouts.order');
 });
-Route::get('/layouts/login_register', function () {
-    return view('layouts.login_register');
+Route::get('/layouts/TinTuc', function () {
+    return view('layouts.TinTuc');
 });
+// Route::get('/layouts/login_register', function () {
+//     return view('layouts.login_register');
+// });
+
+Route::post('/layouts/auth', [AuthController::class, 'authenticate']);
 //=======================
 // login/register
 
